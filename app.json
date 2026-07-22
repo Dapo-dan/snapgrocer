@@ -10,7 +10,8 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.anonymous.SnapGrocer"
+      "bundleIdentifier": "com.anonymous.SnapGrocer",
+      "appleTeamId": "3T7YYH72C6"
     },
     "android": {
       "adaptiveIcon": {
@@ -40,7 +41,9 @@
             "backgroundColor": "#000000"
           }
         }
-      ]
+      ],
+      "expo-secure-store",
+      "@clerk/expo"
     ],
     "experiments": {
       "typedRoutes": true,
