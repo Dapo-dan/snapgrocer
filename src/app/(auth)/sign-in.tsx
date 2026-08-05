@@ -87,7 +87,7 @@ export default function SignInScreen() {
               </View>
               <Text className="ml-3 flex-1 text-lg font-semibold text-card-foreground">
                 {isGitHubClicked
-                  ? "Connecting GitHub..."
+                  ? "Connecting to GitHub..."
                   : "Continue with GitHub"}
               </Text>
               <FontAwesome name="angle-right" size={18} color="#5f6e66" />
